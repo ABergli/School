@@ -1,3 +1,5 @@
+# Code from https://stackoverflow.com/questions/1482308/how-to-get-all-subsets-of-a-set-powerset
+
 def powerset(s):
     x = len(s)
     masks = [1 << i for i in range(x)]
